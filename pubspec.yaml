@@ -1,0 +1,49 @@
+name: task_manager
+description: "Task Manager App"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State management  
+  flutter_bloc: ^9.1.1
+  # for adapting screen and font size.
+  flutter_screenutil: ^5.9.3
+  # Code generator (mainly used with cubit & retrofit)
+  freezed: ^3.2.3
+  freezed_annotation: ^3.1.0
+  # for dependency injection
+  get_it: ^8.2.0
+  # A Flutter package to use fonts from fonts.google.com
+  google_fonts: ^6.3.1
+  # Automatically generate code for converting to and from JSON by annotating Dart classes. 
+  json_annotation: ^4.9.0
+  json_serializable: ^6.11.1
+  # Networking.
+  dio: ^5.9.0
+  retrofit: ^4.7.2
+  retrofit_generator: ^10.0.5
+  pretty_dio_logger: ^1.4.0
+  # reading and writing simple key-value pairs
+  shared_preferences: ^2.5.3
+  # provides API to store data in secure storage.
+  flutter_secure_storage: ^9.2.4
+  # Flutter library to load and cache network images.
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+
+  # A build system for Dart code generation and modular compilation
+  build_runner: ^2.8.0
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
