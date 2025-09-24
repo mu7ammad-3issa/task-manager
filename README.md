@@ -1,9 +1,17 @@
 Task Manager App
 Task Manager is a simple and clean mobile application built with Flutter that allows users to view and manage their tasks efficiently. The app fetches tasks from a remote API, displays them in a clear and organized manner, and allows users to view task details and update their completion status.
 
+APK Download
+You can download and install the APK file for this application from the following link:
+
+https://drive.google.com/file/d/1rZzxbl3I4jeMdio1mc4aAoowRyZFFytX/view?usp=drive_link
+
+Note: You may need to enable "Install from unknown sources" in your Android settings to install the APK.
+
+
 📸 Screenshots
 Task List Screen	Task Details Screen
-[<img width="1080" height="1920" alt="Tasks list" src="https://github.com/user-attachments/assets/f4a9dae1-81a9-455d-bb60-d6bd4a521254" />]	[<img width="1080" height="1920" alt="Task details" src="https://github.com/user-attachments/assets/b07960aa-67f0-4a0f-b586-9b54bacf0d83" />]
+<img width="1080" height="1920" alt="Tasks list" src="https://github.com/user-attachments/assets/f4a9dae1-81a9-455d-bb60-d6bd4a521254" />	<img width="1080" height="1920" alt="Task details" src="https://github.com/user-attachments/assets/b07960aa-67f0-4a0f-b586-9b54bacf0d83" />
 
 
 🚀 How to Run the App
@@ -64,3 +72,4 @@ google_fonts: Provides easy access to a wide variety of fonts to enhance the app
 
 Secure Storage
 flutter_secure_storage: Used to securely store the API key, ensuring that sensitive information is not exposed.
+
